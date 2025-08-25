@@ -9,7 +9,7 @@ import service4 from "../../../assets/Home/Service/Service44.png";
 import service5 from "../../../assets/Home/Service/Service55.png";
 import service6 from "../../../assets/Home/Service/Service66.png";
 import service7 from "../../../assets/Home/Service/Service77.png";
-import service8 from "../../../assets/Home/Service/service88.png";
+import service8 from "../../../assets/Home/Service/Service88.png";
 import icon1 from "../../../assets/Home/Purpose/Icon1.svg";
 import icon2 from "../../../assets/Home/Purpose/Icon2.svg";
 import icon3 from "../../../assets/Home/Purpose/Icon3.svg";
