@@ -1,0 +1,154 @@
+/** @format */
+
+.service {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.texts {
+  text-align: center;
+  background-color: var(--color-bg2);
+  padding: 80px 30px 45px;
+}
+
+.texts h2 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 50px;
+  font-family: var(--font-lino);
+}
+
+.one > div img {
+  width: 48px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 258px;
+  margin-top: 100px;
+  padding: 0 120px 200px;
+}
+
+.one:nth-child(even) {
+  justify-content: end;
+}
+
+.one {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+
+.one > div {
+  top: 215px;
+  position: absolute;
+  width: 485px;
+  background-color: var(--color-primary);
+  box-shadow: 0px 2px 7px 0px hsl(0, 0%, 0%, 0.04);
+  left: 510px;
+  padding: 33px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.one:nth-child(even) > div {
+  left: 90px;
+  top: 240px;
+}
+
+.one h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-bg);
+  font-family: var(--font-lino);
+  margin: 0;
+  position: relative;
+}
+
+.one span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  line-height: 1.35;
+}
+
+.button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-primary);
+  border: none;
+  padding: 12px;
+  font-family: var(--font-source);
+  background-color: var(--color-bg);
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    padding: 0 0 557px;
+    gap: 530px;
+    align-items: center;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .texts label,
+  .texts p {
+    font-size: 16px;
+    width: 282px;
+  }
+
+  .texts h2 {
+    font-size: 20px;
+  }
+
+  .one img {
+    width: 314px;
+  }
+
+  .one > div {
+    width: 280px;
+    left: 0;
+    padding: 18px;
+    top: 239px;
+  }
+
+  .one h2,
+  .one span,
+  .button {
+    font-size: 15px;
+  }
+
+  .one:nth-child(even) > div {
+    width: 280px;
+    left: 0;
+    top: 239px;
+  }
+
+  .one:nth-child(6) h2::before {
+    top: 45px !important;
+    border: 2px solid var(--color-bg);
+  }
+
+  .button svg {
+    width: 16px;
+    height: 16px;
+  }
+}

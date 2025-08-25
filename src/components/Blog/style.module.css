@@ -1,0 +1,375 @@
+/** @format */
+
+.blog {
+  margin-top: 190px;
+  /* background: url("../../assets/bg1.png") space; */
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  user-select: none;
+  /* pointer-events: none; */
+}
+
+.banner h1 {
+  padding: 117px 50px 35px;
+  background-color: var(--color-bg2);
+  font-size: 50px;
+  font-family: var(--font-lino);
+  margin: 0;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.recentPost {
+  padding: 90px;
+  display: flex;
+  align-items: center;
+  /* gap: 50px; */
+  justify-content: center;
+}
+
+.recentPost img {
+  width: 552px;
+  height: 319px;
+  border-right: 5px solid var(--color-bg);
+}
+
+.recentPost > div {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0px 4px 7px hsla(0, 0%, 0%, 0.04);
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+}
+
+.post {
+  font-size: 30px;
+  font-family: var(--font-lino);
+  color: var(--color-bg);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.allpost {
+  text-align: center;
+  font-size: 50px;
+  font-family: var(--font-lino);
+  color: var(--color-bg);
+  margin-bottom: 56px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.texts label {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text);
+  font-family: var(--font-source);
+}
+
+.texts h2 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: var(--font-lino);
+  color: var(--color-bg);
+  padding: 0 100px;
+}
+
+.texts img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 26px;
+  padding: 0 50px;
+  place-items: center;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 5px 7px hsla(0, 0%, 0%, 0.04);
+  width: 400px;
+}
+
+.container1 > div {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 5px solid var(--color-bg);
+}
+.icon {
+  width: fit-content;
+}
+
+.image {
+  height: 257px;
+}
+
+.container1 > div > label,
+.recentPost > div > label {
+  font-size: 14px;
+  font-family: var(--font-source);
+  color: var(--color-blog);
+  font-weight: 600;
+}
+
+.h3,
+.blogh3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.h3 h3,
+.blogh3 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-bg);
+  font-family: var(--font-lino);
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.blogh3 h3 {
+  color: var(--color-text) !important;
+}
+
+svg {
+  flex-shrink: 0;
+}
+
+.container1 > div > span,
+.span {
+  font-size: 18px;
+  color: var(--color-text);
+  font-family: var(--font-source);
+  font-weight: 400;
+  text-align: justify;
+}
+
+.span {
+  margin-top: 20px;
+}
+
+/*Detail Page*/
+
+.detail {
+  margin-top: 190px;
+  background: url("../../assets/bg1.png") space;
+  background-repeat: repeat-y;
+  user-select: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: left;
+  gap: 16px;
+  margin-top: 28px;
+  font-size: 24px;
+  font-family: var(--font-source);
+  font-weight: 400;
+  color: var(--color-text);
+  padding: 0 100px;
+}
+
+.intro div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: var(--color-text3);
+  font-family: var(--font-source);
+  font-weight: 600;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  color: var(--color-text);
+  margin-top: 40px;
+}
+
+.help a {
+  color: var(--color-text);
+}
+
+.help p {
+  margin: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--font-source);
+}
+
+.help span {
+  font-family: var(--font-source);
+}
+
+.button {
+  margin-top: 50px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  padding: 0 50px;
+}
+
+.button button {
+  background-color: white;
+  border: 1px solid var(--color-bg);
+  padding: 12px 24px;
+  color: var(--color-bg);
+  font-family: var(--font-source);
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog {
+    margin-top: 120px;
+    gap: 40px;
+  }
+
+  .texts label {
+    font-size: 16px;
+  }
+
+  .texts h2 {
+    font-size: 20px;
+    width: 280px;
+    padding: 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+    gap: 90px;
+  }
+
+  .recentPost {
+    padding: 0 30px;
+    flex-direction: column;
+    margin-top: 135px;
+  }
+
+  .recentPost img {
+    border-right: none;
+    border-bottom: 5px solid var(--color-bg);
+  }
+
+  .banner h1 {
+    display: none;
+  }
+  .container1 {
+    width: 312px;
+  }
+
+  .container1 img,
+  .recentPost img {
+    width: 312px;
+    margin: 0 auto;
+  }
+
+  .recentPost img {
+    height: 276px;
+  }
+
+  .recentPost > div {
+    width: 260px;
+  }
+
+  .post {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .span {
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  .allpost {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .container1 > div {
+    padding: 24px 16px;
+    gap: 8px;
+  }
+
+  .icon {
+    width: 30px !important;
+    margin: 0 !important;
+  }
+
+  .h3 h3 {
+    font-size: 18px;
+  }
+
+  .container1 > div > span {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  /*Detail*/
+  .detail {
+    margin-top: 125px;
+    background-size: 400px;
+  }
+
+  .texts > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texts img {
+    width: 360px;
+  }
+
+  .intro {
+    padding: 0 30px;
+    font-size: 16px;
+  }
+
+  .help {
+    font-size: 12px;
+  }
+
+  .button {
+    flex-direction: row;
+  }
+
+  .button button {
+    padding: 8px 12px;
+  }
+}
