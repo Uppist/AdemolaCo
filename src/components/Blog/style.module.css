@@ -94,7 +94,6 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 26px;
   padding: 0 50px;
-  place-items: center;
 }
 
 .container1 {
@@ -160,7 +159,6 @@ svg {
   color: var(--color-text);
   font-family: var(--font-source);
   font-weight: 400;
-  text-align: justify;
 }
 
 .span {

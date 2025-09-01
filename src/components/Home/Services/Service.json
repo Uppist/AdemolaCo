@@ -2,60 +2,98 @@
   {
     "id": 0,
     "image": "service1.png",
-    "title": "Real Estate & Construction",
+    "title": "Real Estate Law",
     "svg": "Icon1.svg",
 
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Olabiyi Ademola J. & Co. provide comprehensive legal services in real estate to ensure that property transactions are seamless, secure, and compliant with the law. Our expertise covers:",
+    "li1": "Property Sales & Purchases – Guiding clients through the legal processes of buying and selling properties, ensuring due diligence and proper documentation.",
+    "li2": "Leasing (Commercial & Residential) – Drafting, reviewing, and negotiating lease agreements that protect the interests of landlords and tenants.",
+    "li3": "Land Use & Zoning – Advising on regulatory compliance, land allocation, and zoning requirements to avoid disputes and penalties.",
+    "li4": "Construction Contracts – Preparing and reviewing construction agreements to safeguard the rights and obligations of all parties involved.",
+    "li5": "Perfecting of Title Documents – Assisting clients in registering and perfecting titles to secure legal ownership and protect investments."
   },
+
   {
     "id": 1,
     "image": "service2.png",
-    "title": "Corporate & Commercial Law",
+    "title": "Corporate and Commercial Law",
     "svg": "Icon2.svg",
 
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Our corporate and commercial practice is designed to support companies at every stage of growth, from start-ups to established enterprises. Our services include:",
+    "li1": "Contract Review & Negotiation – Protecting your interests by carefully analyzing and negotiating favorable terms.",
+    "li2": "Drafting Contracts, Agreements & Legal Documents – Preparing clear, enforceable, and customized documents tailored to business needs.",
+    "li3": "Business Formation & Structuring – Advising on the best structures (LLC, corporations, partnerships) to suit client objectives and ensure regulatory compliance.",
+    "li4": "Mergers & Acquisitions (M&A) – Providing due diligence, structuring, and negotiation support for smooth transitions and business growth.",
+    "li5": "Financing & Lending Agreements – Drafting and reviewing financial agreements to protect lenders and borrowers alike.",
+    "li6": "Shareholder Agreements – Establishing clear rights, obligations, and protections for shareholders and investors.",
+    "li7": "Regulatory Compliance – Ensuring businesses operate in line with corporate, tax, and sector-specific regulations."
   },
   {
     "id": 2,
     "image": "service3.png",
-    "title": "Energy, Power, Infrastructure",
+    "title": "Litigation & Dispute Resolution",
     "svg": "Icon3.svg",
 
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "We provide strong representation and practical solutions for disputes, whether in court or through alternative resolution methods. Our services include:",
+    "li1": "Litigation – Handling civil, commercial, and criminal matters with diligence and expertise.",
+    "li2": "Arbitration & Mediation – Offering cost-effective alternatives to litigation, focused on achieving fair settlements.",
+    "li3": "Class Actions – Representing groups with shared claims to ensure justice is served collectively and effectively."
   },
   {
     "id": 3,
     "image": "service4.png",
-    "title": "Venture Capital and Private Equity",
+    "title": "Criminal Law",
     "svg": "Icon4.svg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Our criminal law practice is built on discretion, expertise, and a commitment to protecting our clients’ rights at every stage of the process. Our services include:",
+    "li1": "Defense Against Criminal Charges – Comprehensive representation for clients accused of criminal offences, ensuring a fair trial and robust advocacy.",
+    "li2": "Bail Hearings – Skilled representation to secure bail and protect clients’ liberties while awaiting trial.",
+    "li3": "Appeals – Challenging wrongful convictions or unfair sentences through meticulous appellate advocacy.",
+    "li4": "White-Collar & Cybercrime Defense – Specialized legal support for complex financial crimes, corporate misconduct, and cybercrime-related offences."
   },
   {
     "id": 4,
     "image": "service5.png",
-    "title": "Labour and Employment Relations",
+    "title": "Family Law",
     "svg": "Icon5.svg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "We understand that family-related legal issues are often sensitive, emotional, and deeply personal. Our Family Law practice is designed to provide compassionate guidance while pursuing fair and lasting solutions for our clients. Our services include:",
+    "li1": "Divorce & Separation – Legal support through the complexities of marriage dissolution, ensuring fair settlements and protecting clients’ rights.",
+    "li2": "Child Custody & Support – Advocacy for the best interests of children while balancing parental rights and responsibilities.Child Custody & Support – Advocacy for the best interests of children while balancing parental rights and responsibilities.",
+    "li3": "Adoption – Legal assistance in navigating adoption processes to help families grow with security and peace of mind.",
+    "li4": "Domestic Violence Protection Orders – Swift legal intervention to secure protective orders and safeguard the well-being of vulnerable family members.",
+    "text2": "We combine empathy with legal expertise, ensuring our clients feel supported while achieving favorable outcomes in their family matters."
   },
   {
     "id": 5,
     "image": "service6.png",
-    "title": "Intellectual Property - Advisory,Registration, Management, etc:",
+    "title": "Advisory Services",
     "svg": "Icon6.svg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Don't just solve legal problems, let us help you prevent them. Our Advisory Services are designed to provide proactive guidance, ensuring individuals and businesses make informed decisions while staying compliant with the law. We offer:",
+    "li2": "Legal Opinions & Consultations – Clear, practical, and strategic advice to guide your business or personal decisions.",
+    "li3": "Risk Assessment & Mitigation – Identifying potential legal risks and providing solutions to minimize exposure before issues arise.",
+    "li4": "Regulatory & Compliance Advice – Helping clients navigate complex regulations across industries, ensuring operations remain compliant with statutory and regulatory requirements.",
+    "text2": "With a forward-looking approach, we empower our clients to operate confidently, avoid pitfalls, and seize opportunities."
   },
   {
     "id": 6,
     "image": "service7.png",
-    "title": "Alternative Dispute Resolution Services",
+    "title": "Tax Law",
     "svg": "Icon7.svg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Navigating the complexities of tax regulations can be overwhelming, but at Olabiyi Ademola J. & Co., we make it seamless. Our Tax Law services are tailored to help individuals and businesses stay compliant while maximizing financial efficiency. We provide:",
+    "li1": "Tax Planning & Compliance – Strategic advice to minimize liabilities and ensure full compliance with tax laws.",
+    "li2": "Resolution of Tax Disputes – Skilled representation in negotiations and disputes with tax authorities, safeguarding your rights and interests.",
+    "li3": "Corporate & International Tax – Guidance for companies operating locally and across borders, addressing corporate tax obligations and cross-border tax challenges.",
+    "text2": "With our expertise, you gain clarity, compliance, and confidence in managing your tax obligations."
   },
   {
     "id": 7,
     "image": "service8.png",
-    "title": "Technology & Digital Economy",
+    "title": "Wills, Trusts & Estate Planning",
     "svg": "Icon8.svg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing "
+    "description": "Planning for the future is one of the most important steps you can take to protect your loved ones and secure your legacy. Olabiyi Ademola J. & Co.  offers tailored estate planning solutions designed to give you peace of mind. Our services include:",
+    "li1": "Drafting Wills – Clearly outline your wishes and ensure your estate is distributed according to your intentions.",
+    "li2": "Creating Trusts – Establish trusts that safeguard assets, provide for beneficiaries, and manage wealth effectively.",
+    "li3": "Probate & Estate Administration – Guidance and representation in smoothly managing and distributing estates.",
+    "li4": "Power of Attorney – Legal arrangements that empower trusted individuals to act on your behalf in critical matters.",
+    "text2": "With us, you can be confident that your legacy and loved ones are protected, today and for the future."
   }
 ]

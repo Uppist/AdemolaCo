@@ -2,7 +2,7 @@
 
 import React from "react";
 import NavBar from "./components/NavBar/NavBar";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, BrowserRouter, Route, Routes } from "react-router-dom";
 import "./style.css";
 import Home from "./components/Home/Home";
 import Aboutus from "./components/Aboutus/Aboutus";

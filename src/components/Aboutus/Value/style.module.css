@@ -1,92 +1,83 @@
 /** @format */
 
-.lawyer {
+.value {
+  padding: 50px 100px;
   display: flex;
   flex-direction: column;
   gap: 56px;
-  text-align: center;
-  margin-top: 50px;
-  padding: 0 50px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
+  gap: 8px;
 }
 
 .text h2 {
   margin: 0;
   font-size: 50px;
-  color: var(--color-bg);
   font-family: var(--font-lino);
+  color: var(--color-bg);
 }
 
 .text span {
-  width: 90%;
   font-size: 24px;
-  font-family: var(--font-source);
   font-weight: 400;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  text-align: center;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+  column-gap: 70px;
+  row-gap: 38px;
+  /* list-style: auto; */
 }
-
-.container div {
+.lists {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
-.container h3 {
+.container li {
+  padding: 0;
   margin: 0;
   font-size: 24px;
   font-family: var(--font-lino);
+  color: var(--color-bg);
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.lists span {
+  font-size: 24px;
+  font-family: var(--font-source);
   color: var(--color-text);
 }
 
-.container span {
-  color: var(--color-bg);
-  font-size: 18px;
-  font-weight: 700;
-  font-family: var(--font-source);
-}
 @media only screen and (max-width: 768px) {
-  .lawyer {
-    gap: 20px;
-    align-items: center;
+  .value {
+    padding: 25px;
   }
   .text h2 {
     font-size: 24px;
   }
-
   .text span {
     font-size: 16px;
-    width: 95%;
   }
-
   .container {
-    gap: 50px;
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
   }
-
-  .container div {
-    align-items: center;
-  }
-
-  .container img {
-    width: 312px;
-  }
-
-  .container h3 {
+  .container li,
+  .lists span {
     font-size: 16px;
   }
-
-  .container span {
-    margin-top: -10px;
-    font-size: 12px;
+  .lists {
+    gap: 8px;
   }
 }

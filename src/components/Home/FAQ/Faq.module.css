@@ -82,7 +82,7 @@
 }
 
 .svg {
-  width: 58px;
+  width: 47px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -98,6 +98,7 @@
 .rotate {
   transform: rotate(90deg);
   background-color: var(--color-bg);
+  height: 50px;
 }
 
 @media only screen and (max-width: 768px) {

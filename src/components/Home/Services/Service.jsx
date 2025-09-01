@@ -65,14 +65,26 @@ export default function Service() {
 
                     <h2>{service.title}</h2>
                     <span>{service.description}</span>
+                    <div className={styles.lists}>
+                      {[
+                        service.li1,
+                        service.li2,
+                        service.li3,
+                        service.li4,
+                        service.li5,
+                        service.li6,
+                        service.li7,
+                      ]
+                        .filter((li) => li)
+                        .map((li, idx) => (
+                          <ul className={styles.mark} key={idx}>
+                            <li>{li}</li>
+                          </ul>
+                        ))}
+                    </div>
+                    <span>{service.text2}</span>
                     {/* <Link to='/services'> */}
-                    <Link
-                      to='/services'
-                      state={{
-                        serviceid:
-                          service.title.split(" ")[0] || "Other Services",
-                      }}
-                    >
+                    <Link to='/contactus'>
                       <button className={styles.button} type='button'>
                         Get Started{" "}
                         <svg

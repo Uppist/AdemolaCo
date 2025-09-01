@@ -49,7 +49,10 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span>+234 xxxxxxxxxx</span>
+                <span>
+                  +234 813 6975 738
+                  <br /> +234 802 9592 778
+                </span>
               </div>
               <div>
                 <svg
@@ -65,7 +68,7 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span>support@gmail.com</span>
+                <span>olabiyi_ademola@yahoo.com</span>
               </div>
               <div>
                 <svg
@@ -81,7 +84,7 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span>Lorem Ipsum is simply dummy text of the printing.</span>
+                <span>4, Lanre Awolokun, Gbagada Phase 2, Lagos State.</span>
               </div>
             </div>
 

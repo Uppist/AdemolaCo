@@ -140,8 +140,8 @@ export default function Blog() {
       ) : (
         <div className={styles.blog}>
           <div className={styles.texts}>
-            <label htmlFor=''>What is Lorem Ipsum?</label>
-            <h2>What is Lorem Ipsum?</h2>
+            <label htmlFor=''>Who are we servicing?</label>
+            <h2>Services We Provide</h2>
           </div>
           <div className={styles.container}>
             {blog.map((data, index) => (
@@ -159,7 +159,12 @@ export default function Blog() {
                   </div>
 
                   <span>{data.text}</span>
-                  <Link to='/blog-details' state={{ data }}>
+                  <Link
+                    to='/services'
+                    state={{
+                      serviceid: data.title.split(" ")[0] || "Other Services",
+                    }}
+                  >
                     <button className={styles2.button}>
                       Read full details
                       <svg

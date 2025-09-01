@@ -25,14 +25,13 @@ export default function About() {
         )}
 
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing
+          Olabiyi Ademola & Co is committed to delivering effective legal
+          services that provide you with clear, convincing results while
+          upholding the highest standards of the legal profession. Our foremost
+          obligation is to safeguard our clients’ interests in strict adherence
+          to the principles and ethics of the law. We approach every brief with
+          passion, dedication, and a results-driven mindset, ensuring that each
+          matter is handled with the utmost professionalism and care.
         </p>
 
         {path ? (

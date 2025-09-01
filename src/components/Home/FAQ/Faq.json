@@ -1,22 +1,27 @@
 [
   {
     "id": 1,
-    "question": "Lorem Ipsum is simply dummy text of the printing and typesetting?",
-    "answer": "We offer services in various legal areas, including family law, business law, property law, intellectual property, and litigation."
+    "question": "What types of cases do you handle?",
+    "answer": "We handle a wide range of legal matters including real estate law, litigation & dispute resolution, criminal law, family law etc. If you’re unsure whether your case fits, reach out—we’ll let you know how we can help."
   },
   {
     "id": 2,
-    "question": "Lorem Ipsum is simply dummy text of the printing and typesetting?",
-    "answer": "We offer services in various legal areas, including family law, business law, property law, intellectual property, and litigation."
+    "question": "Do I really need a lawyer for my situation?",
+    "answer": "Not every issue requires a lawyer, but having legal guidance often saves time, money, and stress. If your situation involves rights, contracts, disputes, or complex documents, it’s always best to get professional advice."
   },
   {
     "id": 3,
-    "question": "Lorem Ipsum is simply dummy text of the printing and typesetting?",
-    "answer": "We offer services in various legal areas, including family law, business law, property law, intellectual property, and litigation."
+    "question": "How much will it cost to work with your firm?",
+    "answer": "We believe in clear and fair pricing. The cost depends on the type of case, but we’ll explain all fees upfront before you commit. In some cases, flexible payment options or initial consultations may be available."
   },
   {
     "id": 4,
-    "question": "Lorem Ipsum is simply dummy text of the printing and typesetting?",
-    "answer": "We offer services in various legal areas, including family law, business law, property law, intellectual property, and litigation."
+    "question": "How long will my case take?",
+    "answer": "Every case is different—some are resolved quickly, while others may take more time. During your first consultation, we’ll give you an estimated timeline and keep you updated at every step."
+  },
+  {
+    "id": 5,
+    "question": "How do I get started?",
+    "answer": "It’s simple! Contact us to schedule a consultation. We’ll listen to your situation, answer your questions, and walk you through your options so you know the best way forward."
   }
 ]
