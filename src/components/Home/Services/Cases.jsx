@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import cases from "../../../assets/Home/Purpose/Image.png";
+import cases from "../../../assets/Home/Purpose/image.png";
 import styles from "./Service.module.css";
 
 export default function Cases() {
