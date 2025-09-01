@@ -7,6 +7,7 @@ export default function LogoNav() {
   return (
     <>
       <svg
+        className={styles.svg}
         width='160'
         height='62'
         viewBox='0 0 160 62'
