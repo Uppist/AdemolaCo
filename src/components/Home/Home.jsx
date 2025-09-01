@@ -19,7 +19,7 @@ export default function Home() {
       <Mission />
       {/* <Service /> */}
       <Blog />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <FAQ />
     </>
   );

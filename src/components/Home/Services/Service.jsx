@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Service.module.css";
 import service1 from "../../../assets/Home/Service/Service11.png";
 import service2 from "../../../assets/Home/Service/Service22.png";
@@ -23,6 +23,9 @@ import { Link } from "react-router-dom";
 import Cases from "./Cases";
 
 export default function Service() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const imageMap = {
     "service1.png": service1,
     "service2.png": service2,

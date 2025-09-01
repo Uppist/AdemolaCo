@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 768px) {
   .nav svg {
-    width: 50px;
+    width: 120px;
   }
   .nav {
     padding: 12px 24px;

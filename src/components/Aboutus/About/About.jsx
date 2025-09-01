@@ -15,12 +15,12 @@ export default function About() {
         {path ? (
           <div className={styles.global2}>
             <label htmlFor=''>About Us</label>
-            <h2>What is Lorem Ipsum?</h2>
+            <h2>Who We Are?</h2>
           </div>
         ) : (
           <div className={styles.global}>
             <label htmlFor=''>About Us</label>
-            <h2>What is Lorem Ipsum?</h2>
+            <h2>Who We Are?</h2>
           </div>
         )}
 

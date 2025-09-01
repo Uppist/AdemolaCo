@@ -175,6 +175,7 @@
   }
 
   .one {
+    align-items: center;
     flex-direction: column;
     padding: 0 30px;
   }

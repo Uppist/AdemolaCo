@@ -103,8 +103,8 @@
 
 @media only screen and (max-width: 768px) {
   .faq {
-    margin-top: 100px;
-    padding: 30px;
+    margin-top: 20px;
+    padding: 0 30px;
     gap: 40px;
   }
   .faqh2 h2 {
