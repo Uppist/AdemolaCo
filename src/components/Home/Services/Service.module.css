@@ -211,9 +211,9 @@
   }
 
   .one:nth-child(even) > div {
-    width: 280px;
+    /* width: 280px;
     left: 0;
-    top: 239px;
+    top: 239px; */
   }
 
   .one:nth-child(6) h2::before {
