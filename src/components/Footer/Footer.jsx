@@ -28,7 +28,7 @@ export default function Footer() {
                 served
               </h2>
               {/* <Svg /> */}
-              <h3>Open hour</h3>
+              <h3>Open Hours</h3>
               <span>Monday - Friday : 9:00 AM - 4:00 PM</span>
             </div>
 
