@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import Contactus from "./components/Contact/Contactus";
 import Service from "./components/Home/Services/Service";
 import Blog from "./components/Blog/Blog";
+import Gallery from "./components/Gallery/Gallery";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path='/services' element={<Service />} />
         <Route path='blogs' element={<Blog />} />
         <Route path='/contactus' element={<Contactus />} />
+        <Route path='/gallery' element={<Gallery />} />
       </Routes>
       <Footer />
     </HashRouter>

@@ -143,9 +143,9 @@ export default function Blog() {
             <label htmlFor=''>Who are we servicing?</label>
             <h2>Services We Provide</h2>
           </div>
-          <div className={styles.container}>
+          <div className={styles.containerService}>
             {blog.map((data, index) => (
-              <div className={styles.container1} key={index}>
+              <div className={styles.container1Service} key={index}>
                 <img
                   className={styles.image}
                   src={ImageMap[data.image]}

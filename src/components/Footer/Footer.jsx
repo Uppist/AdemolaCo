@@ -27,7 +27,7 @@ export default function Footer() {
                 unwavering support to protect your rights and ensure justice is
                 served
               </h2>
-              <Svg />
+              {/* <Svg /> */}
               <h3>Open hour</h3>
               <span>Monday - Friday : 9:00 AM - 4:00 PM</span>
             </div>

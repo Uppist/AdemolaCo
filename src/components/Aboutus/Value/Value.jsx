@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import value from "./value.json";
+import icon from "../../../assets/Home/mission.svg";
 
 export default function Value() {
   return (
@@ -17,14 +18,19 @@ export default function Value() {
       </div>
 
       <div className={styles.lists}>
-        <ol className={styles.container}>
+        <ul className={styles.container}>
           {value.map((data, index) => (
-            <li key={index}>
-              {data.li}
-              <br /> <span>{data.span}</span>
-            </li>
+            <>
+              <li key={index}>
+                <div>
+                  <img src={icon} alt='' />
+                  <span> {data.li}</span>
+                </div>
+                <span>{data.span}</span>
+              </li>
+            </>
           ))}
-        </ol>
+        </ul>
       </div>
     </div>
   );

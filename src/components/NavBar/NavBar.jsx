@@ -53,6 +53,18 @@ export default function NavBar({}) {
             </li>
           </Link>
 
+          <Link to='/gallery'>
+            {" "}
+            <li
+              className={`${
+                active === "gallery" ? styles.active : styles.lists
+              }`}
+              onClick={() => setActive("gallery")}
+            >
+              Gallery
+            </li>
+          </Link>
+
           <Link to='/blogs'>
             <li
               className={`${active === "blog" ? styles.active : styles.lists}`}
@@ -165,6 +177,17 @@ export default function NavBar({}) {
                 }}
               >
                 Services{" "}
+              </li>
+            </Link>
+
+            <Link to='/gallery'>
+              <li
+                className={styles.sidebarlist}
+                onClick={() => {
+                  onClose();
+                }}
+              >
+                Gallery{" "}
               </li>
             </Link>
 

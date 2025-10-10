@@ -90,6 +90,10 @@
     display: none;
   }
 
+  .navul {
+    gap: 16px;
+  }
+
   .listmenu {
     display: block;
   }
