@@ -15,7 +15,7 @@ import Gallery from "./components/Gallery/Gallery";
 
 export default function App() {
   return (
-    <BrowserRouter basename='AdemolaCo'>
+    <HashRouter>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -26,6 +26,6 @@ export default function App() {
         <Route path='/gallery' element={<Gallery />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
