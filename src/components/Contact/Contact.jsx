@@ -90,7 +90,7 @@ export default function Contact() {
                 name='from_email'
               />
             </div>
-            <div className={styles.input}>
+            {/* <div className={styles.input}>
               <label htmlFor=''>Service</label>
               <div className={`${styles.service} ${styles.select}`}>
                 <div
@@ -130,14 +130,13 @@ export default function Contact() {
                         name='from_service'
                       >
                         {option}
-                        {/* <hr /> */}
                       </li>
                     ))}
                   </ul>
                 )}
               </div>
               <input type='hidden' name='from_service' value={selectedOption} />
-            </div>
+            </div> */}
             <div className={styles.input}>
               <label htmlFor=''>Message</label>
               <textarea placeholder='Message' name='message'></textarea>

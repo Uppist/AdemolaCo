@@ -25,7 +25,7 @@ export default function About() {
         )}
 
         <p>
-          Olabiyi Ademola & Co is committed to delivering effective legal
+          Olabiyi Ademola J. & Co is committed to delivering effective legal
           services that provide you with clear, convincing results while
           upholding the highest standards of the legal profession. Our foremost
           obligation is to safeguard our clients’ interests in strict adherence

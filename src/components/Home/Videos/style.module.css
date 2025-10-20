@@ -1,0 +1,13 @@
+/** @format */
+
+.video {
+  padding: 0 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+}

@@ -20,7 +20,7 @@ export default function NavBar({}) {
   return (
     <header className={styles.firstsection}>
       <nav className={styles.nav}>
-        <Link to='/'>
+        <Link to='/AdemolaCo'>
           <LogoNav />
         </Link>
 
@@ -123,7 +123,7 @@ export default function NavBar({}) {
           }`}
         >
           <div className={styles.imageclose}>
-            <Link to='/'>
+            <Link to='/AdemolaCo'>
               <LogoNav />
             </Link>
 
@@ -147,7 +147,7 @@ export default function NavBar({}) {
           </div>
 
           <ul className={styles.sidebarmenu}>
-            <Link to='/'>
+            <Link to='/AdemolaCo'>
               <li
                 className={styles.sidebarlist}
                 onClick={() => {

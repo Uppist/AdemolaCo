@@ -25,18 +25,45 @@ export default function Lawyers() {
       </div>
 
       <div className={styles.container}>
-        <img src={image1} alt='' />
+        <div>
+          <img src={image1} alt='' />
+          <h3>Olabiyi Ademola Esq</h3>
+          <span>(The Principal Partner)</span>{" "}
+        </div>
 
-        <img src={image2} alt='' />
+        <div>
+          <img src={image6} alt='' />
+          <h3>Miss Oyibe Chekwube E.</h3>
+        </div>
 
-        <img src={image3} alt='' />
+        <div>
+          <img src={image8} alt='' />
+          <h3>J. A Akinlabi Esq.</h3>
+        </div>
+        <div>
+          <img src={image5} alt='' />
+          <h3>Okodugha Sunday Evaristus Esq.</h3>
+        </div>
 
-        <img src={image4} alt='' />
-        <img src={image5} alt='' />
-        <img src={image6} alt='' />
-        <img src={image7} alt='' />
-        <img src={image8} alt='' />
-        <img src={image9} alt='' />
+        <div>
+          <img src={image3} alt='' />
+          <h3>Okodugha Sunday Evaristus Esq.</h3>
+        </div>
+
+        <div>
+          <img src={image7} alt='' />
+          <h3>Miss Happiness Eleme</h3>
+        </div>
+
+        <div>
+          <img src={image2} alt='' />
+          <h3>Miss Peace Moyosoreoluwa Bimbo-Atolani</h3>
+        </div>
+
+        <div>
+          <img src={image4} alt='' />
+          <h3>Miss Ayodeji Ruth Anuoluwapo</h3>
+        </div>
       </div>
     </div>
   );

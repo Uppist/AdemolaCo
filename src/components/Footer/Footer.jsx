@@ -29,7 +29,7 @@ export default function Footer() {
               </h2>
               {/* <Svg /> */}
               <h3>Open Hours</h3>
-              <span>Monday - Friday : 9:00 AM - 4:00 PM</span>
+              <span>Monday - Friday : 9:00 AM - 6:00 PM</span>
             </div>
 
             <div className={styles.connect}>
