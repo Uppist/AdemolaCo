@@ -68,7 +68,7 @@ export default function Footer() {
                   />
                 </svg>
 
-                <span>olabiyi_ademola@yahoo.com</span>
+                <span>Olabiyiademolaj@gmail.com</span>
               </div>
               <div>
                 <svg

@@ -42,7 +42,7 @@ export default function Lawyers() {
         </div>
         <div>
           <img src={image5} alt='' />
-          <h3>Okodugha Sunday Evaristus Esq.</h3>
+          <h3>Micheal Odumosu Esq.</h3>
         </div>
 
         <div>

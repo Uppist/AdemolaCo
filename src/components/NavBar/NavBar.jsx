@@ -20,7 +20,7 @@ export default function NavBar({}) {
   return (
     <header className={styles.firstsection}>
       <nav className={styles.nav}>
-        <Link to='/AdemolaCo'>
+        <Link to='/'>
           <LogoNav />
         </Link>
 
@@ -65,14 +65,14 @@ export default function NavBar({}) {
             </li>
           </Link>
 
-          <Link to='/blogs'>
-            <li
-              className={`${active === "blog" ? styles.active : styles.blog}`}
-              onClick={() => setActive("blog")}
-            >
-              Blog
-            </li>
-          </Link>
+          {/* <Link to='/blogs'> */}
+          <li
+            className={`${active === "blog" ? styles.active : styles.blog}`}
+            onClick={() => setActive("blog")}
+          >
+            Blog
+          </li>
+          {/* </Link> */}
           <Link to='/contactus'>
             <li
               className={styles.listcontact}
@@ -123,7 +123,7 @@ export default function NavBar({}) {
           }`}
         >
           <div className={styles.imageclose}>
-            <Link to='/AdemolaCo'>
+            <Link to='/'>
               <LogoNav />
             </Link>
 
@@ -191,16 +191,16 @@ export default function NavBar({}) {
               </li>
             </Link>
 
-            <Link to='/blogs'>
-              <li
-                className={styles.sidebarblog}
-                onClick={() => {
-                  onClose();
-                }}
-              >
-                Blog{" "}
-              </li>
-            </Link>
+            {/* <Link to='/blogs'> */}
+            <li
+              className={styles.sidebarblog}
+              onClick={() => {
+                onClose();
+              }}
+            >
+              Blog{" "}
+            </li>
+            {/* </Link> */}
 
             <Link to='/contactus'>
               <li

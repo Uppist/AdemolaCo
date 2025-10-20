@@ -46,7 +46,7 @@ export default function Gallery() {
         </div>
         <div className={styles.container7}>
           {" "}
-          <img src={image9} alt='' />
+          {/* <img src={image9} alt='' /> */}
           <div className={styles.container8}>
             <img src={image10} alt='' />
             <img src={image11} alt='' />
