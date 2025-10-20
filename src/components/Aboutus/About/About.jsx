@@ -2,7 +2,7 @@
 
 import React from "react";
 import styles from "./About.module.css";
-import image from "../../../assets/About/about.png";
+import image from "../../../assets/About/about.jpg";
 import { Link, useLocation } from "react-router-dom";
 
 export default function About() {

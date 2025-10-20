@@ -6,7 +6,7 @@
   flex-direction: row-reverse;
   gap: 56px;
   padding: 0 100px;
-  justify-content: space-between;
+  justify-content: center;
   background: url("../../../assets/About/line.png") no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -102,7 +102,7 @@
     width: 290px;
     margin: 0 auto;
     margin-top: 120px;
-    height: 260px;
+    height: auto;
   }
   .about > div {
     position: relative;
@@ -110,7 +110,7 @@
 
   .global {
     position: absolute;
-    top: -350px;
+    top: -312px;
     text-align: left;
   }
 
