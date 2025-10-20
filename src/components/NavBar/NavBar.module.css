@@ -37,6 +37,10 @@
   cursor: pointer;
 }
 
+.blog {
+  cursor: not-allowed;
+}
+
 .navul a {
   color: var(--color-primary);
 }
@@ -86,6 +90,7 @@
 
   .list,
   .lists,
+  .blog,
   .listcontact {
     display: none;
   }
@@ -158,6 +163,15 @@
     color: var(--color-text);
     font-family: var(--font-source);
     cursor: pointer;
+  }
+
+  .sidebarblog {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text);
+    font-family: var(--font-source);
+    cursor: not-allowed;
   }
 
   .sidebarcontact {

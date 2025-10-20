@@ -67,7 +67,7 @@ export default function NavBar({}) {
 
           <Link to='/blogs'>
             <li
-              className={`${active === "blog" ? styles.active : styles.lists}`}
+              className={`${active === "blog" ? styles.active : styles.blog}`}
               onClick={() => setActive("blog")}
             >
               Blog
@@ -193,7 +193,7 @@ export default function NavBar({}) {
 
             <Link to='/blogs'>
               <li
-                className={styles.sidebarlist}
+                className={styles.sidebarblog}
                 onClick={() => {
                   onClose();
                 }}
