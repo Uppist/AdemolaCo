@@ -19,7 +19,7 @@ export default function Cases() {
         </div>
         <div className={styles.caseText}>
           {" "}
-          <span>10</span>
+          <span>Many</span>
           <label htmlFor=''> Years Of Experience</label>
         </div>
         <div className={styles.caseText}>

@@ -27,7 +27,7 @@ export default function Lawyers() {
       <div className={styles.container}>
         <div>
           <img src={image1} alt='' />
-          <h3>Olabiyi Ademola Esq</h3>
+          <h3>Olabiyi Ademola J. Esq</h3>
           <span>(The Principal Partner)</span>{" "}
         </div>
 

@@ -102,9 +102,9 @@ export default function Footer() {
                 <Link to='/services'>
                   <li>Our Services</li>
                 </Link>
-                <Link to='/blogs'>
-                  <li>Blog</li>
-                </Link>
+                {/* <Link to='/blogs'> */}
+                <li style={{ cursor: "not-allowed" }}>Blog</li>
+                {/* </Link> */}
                 <Link to='/contactus'>
                   <li>Contact Us</li>
                 </Link>
